@@ -1,0 +1,70 @@
+#n_vr {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 100%;
+}
+
+#n_vr ul li a{
+  color: red;
+  font-family: "Marcellus SC", serif;
+  transition: .4s;
+}
+
+.navbar-brand {
+  color: red;
+  font-family: "Marcellus SC", serif;
+  font-size: xx-large;
+}
+
+#n_vr ul li a:hover{
+color: rgb(0, 195, 255);
+}
+/* bg start */
+
+body {
+  background-image: url(../images/background\ -\ Copy.jpg);
+  background-size: cover;
+}
+/* bg end */
+section{
+  color: rgb(0, 195, 255);
+  padding-top: 300px;
+  padding-bottom: 500px;
+}
+
+#drp_dwn li:hover > ul{
+  display: grid;
+  left: 0;
+  top: 100%;
+  background-color: black;
+}
+.dis_co{
+  color: red;
+  font-family: "Marcellus SC", serif;
+}
+
+#intro h2{
+  font-family: "Marcellus SC", serif;
+}
+#intro p{
+  font-family: "Marcellus SC", serif;
+  font-size: 20px;
+}
+
+#games{
+  padding-top: 5%;
+  padding-bottom: 20%;
+  padding-left: 15%;
+}
+#intro .main{
+  display: flex;
+}
+#intro .main .games{
+  padding: 20px 50px;
+  text-align: center;
+}
+#intro .main h2{
+  font-size: 20px;
+  color: red;
+}
